@@ -1,6 +1,13 @@
 # actix-lua
 
+#orig
 https://github.com/geofmureithi/actix-lua
+
+```
+[dependencies]
+actix-lua = { git = "https://github.com/devg1120/actix-lua2", branch = "main"}
+
+```
 
 [![Build Status](https://travis-ci.org/poga/actix-lua.svg?branch=master)](https://travis-ci.org/poga/actix-lua)
 [![Latest Version](https://img.shields.io/crates/v/actix-lua.svg)](https://crates.io/crates/actix-lua)
