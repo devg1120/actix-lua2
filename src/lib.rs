@@ -15,6 +15,8 @@
 //! use actix_lua::{LuaActorBuilder};
 //! use actix::Actor;
 //!
+//!
+//! let mut system = actix::System::new("actix-lua-example");
 //! let addr = LuaActorBuilder::new()
 //!     .on_handle_with_lua(r#"return ctx.msg + 42"#)
 //!     .build()
