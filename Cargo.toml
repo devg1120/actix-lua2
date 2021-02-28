@@ -17,7 +17,8 @@ name = "actix_lua"
 path = "src/lib.rs"
 
 [dependencies]
-actix = "0.9"
+#actix = "0.9"
+actix = "0.10"
 futures = "0.3"
 tokio = "0.2"
 rlua = "0.17"
