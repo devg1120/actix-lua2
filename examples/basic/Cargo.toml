@@ -12,8 +12,8 @@ edition = "2018"
 #futures = "*"
 #actix-lua = { git = "https://github.com/geofmureithi/actix-lua" }
 actix-lua = { path = "../.." }
-actix = "0.9"
-actix-rt = "*"
+actix = "0.10"
+actix-rt = "1.1.1"
 futures = "0.3"
 tokio = "0.2"
 rlua = "0.17"

@@ -4,8 +4,8 @@ version = "0.1.0"
 authors = ["Poga Po <poga.bahamut@gmail.com>"]
 
 [dependencies]
-actix = "0.7.3"
-futures = "0.1.23"
+actix = "0.10"
+futures = "0.3"
 lazy_static = "1.1.0"
 
 actix-lua = { path = "../.." }
